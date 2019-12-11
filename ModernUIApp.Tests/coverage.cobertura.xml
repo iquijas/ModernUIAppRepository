@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.244" branch-rate="0.009" version="1.9" timestamp="1556841272" lines-covered="41" lines-valid="168" branches-covered="2" branches-valid="219">
+  <sources>
+    <source></source>
+  </sources>
+  <packages>
+    <package name="ModernUIApp" line-rate="0.129" branch-rate="0" complexity="30">
+      <classes>
+        <class name="ModernUIApp.Program" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Program.cs" line-rate="0" branch-rate="0" complexity="3">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="BuildWebHost" signature="(System.String[])" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="18" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="18" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ModernUIApp.Startup" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Startup.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="get_Configuration" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ConfigureServices" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Configure" signature="(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="57" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="71" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.Extensions.Configuration.IConfiguration)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="57" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="71" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ModernUIApp.Startup/&lt;&gt;c" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Startup.cs" line-rate="1" branch-rate="0" complexity="2">
+          <methods />
+          <lines />
+        </class>
+        <class name="ModernUIApp.Services.CustomerDataService" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Services\CustomerDataService.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="GetAll" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.Extensions.Configuration.IConfiguration)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ModernUIApp.Models.Customer" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Models\Customer.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="5" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="6" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Address" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="7" hits="10" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="10" branch="False" />
+            <line number="6" hits="10" branch="False" />
+            <line number="7" hits="10" branch="False" />
+          </lines>
+        </class>
+        <class name="ModernUIApp.Models.ErrorViewModel" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Models\ErrorViewModel.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_RequestId" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ShowRequestId" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ModernUIApp.Controllers.CustomersController" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Controllers\CustomersController.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Index" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(ModernUIApp.Services.ICustomerDataService)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="ModernUIApp.Controllers.HomeController" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Controllers\HomeController.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="Index" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="About" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Contact" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Privacy" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Error" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="0%" />
+                    <condition number="26" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="14" type="jump" coverage="0%" />
+                <condition number="26" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="33" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="ModernUIApp.Tests" line-rate="0.698" branch-rate="1" complexity="10">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\iliasj\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ModernUIApp.Tests.CustomersControllerTests" filename="C:\hol\ModernUIAppSolution\ModernUIApp.Tests\CustomersControllerTests.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Index__ShouldReturnAViewContainingAListOfCustomersSortedAlphabetically" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="30" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="19" hits="2" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="19" hits="2" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="ModernUIApp.Tests.Startup" filename="C:\hol\ModernUIAppSolution\ModernUIApp.Tests\Startup.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="ConfigureServices" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Configure" signature="(Microsoft.AspNetCore.Builder.IApplicationBuilder)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.AspNetCore.Hosting.IHostingEnvironment)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ModernUIApp.Tests.Mocks.MockCustomerDataService" filename="C:\hol\ModernUIAppSolution\ModernUIApp.Tests\Mocks\MockCustomerDataService.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="GetAll" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="getSampleCustomerList" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="22" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="98" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="10" branch="False" />
+                <line number="25" hits="10" branch="False" />
+                <line number="26" hits="10" branch="False" />
+                <line number="27" hits="10" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="22" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="98" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="24" hits="10" branch="False" />
+            <line number="25" hits="10" branch="False" />
+            <line number="26" hits="10" branch="False" />
+            <line number="27" hits="10" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="ModernUIApp.Views" line-rate="0" branch-rate="0" complexity="208">
+      <classes>
+        <class name="AspNetCore.Views_Customers_Index/&lt;ExecuteAsync&gt;d__8" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Customers\Index.cshtml" line-rate="0" branch-rate="0" complexity="10">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="4" hits="0" branch="True" condition-coverage="0% (0/8)">
+                  <conditions>
+                    <condition number="17" type="jump" coverage="0%" />
+                    <condition number="362" type="jump" coverage="0%" />
+                    <condition number="465" type="jump" coverage="0%" />
+                    <condition number="498" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="28" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="2312" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="31" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="True" condition-coverage="0% (0/8)">
+              <conditions>
+                <condition number="17" type="jump" coverage="0%" />
+                <condition number="362" type="jump" coverage="0%" />
+                <condition number="465" type="jump" coverage="0%" />
+                <condition number="498" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="16" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="28" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="2312" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="31" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Home_About/&lt;ExecuteAsync&gt;d__0" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Home\About.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="2" hits="0" branch="False" />
+                <line number="4" hits="0" branch="False" />
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="False" />
+            <line number="4" hits="0" branch="False" />
+            <line number="5" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Home_Contact/&lt;ExecuteAsync&gt;d__0" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Home\Contact.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="2" hits="0" branch="False" />
+                <line number="4" hits="0" branch="False" />
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="False" />
+            <line number="4" hits="0" branch="False" />
+            <line number="5" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Home_Index/&lt;ExecuteAsync&gt;d__14" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Home\Index.cshtml" line-rate="0" branch-rate="0" complexity="24">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="2" hits="0" branch="True" condition-coverage="0% (0/24)">
+                  <conditions>
+                    <condition number="170" type="jump" coverage="0%" />
+                    <condition number="361" type="jump" coverage="0%" />
+                    <condition number="464" type="jump" coverage="0%" />
+                    <condition number="497" type="jump" coverage="0%" />
+                    <condition number="750" type="jump" coverage="0%" />
+                    <condition number="942" type="jump" coverage="0%" />
+                    <condition number="1049" type="jump" coverage="0%" />
+                    <condition number="1082" type="jump" coverage="0%" />
+                    <condition number="1335" type="jump" coverage="0%" />
+                    <condition number="1527" type="jump" coverage="0%" />
+                    <condition number="1634" type="jump" coverage="0%" />
+                    <condition number="1667" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="True" condition-coverage="0% (0/24)">
+              <conditions>
+                <condition number="170" type="jump" coverage="0%" />
+                <condition number="361" type="jump" coverage="0%" />
+                <condition number="464" type="jump" coverage="0%" />
+                <condition number="497" type="jump" coverage="0%" />
+                <condition number="750" type="jump" coverage="0%" />
+                <condition number="942" type="jump" coverage="0%" />
+                <condition number="1049" type="jump" coverage="0%" />
+                <condition number="1082" type="jump" coverage="0%" />
+                <condition number="1335" type="jump" coverage="0%" />
+                <condition number="1527" type="jump" coverage="0%" />
+                <condition number="1634" type="jump" coverage="0%" />
+                <condition number="1667" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Home_Privacy/&lt;ExecuteAsync&gt;d__0" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Home\Privacy.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="2" hits="0" branch="False" />
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="False" />
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared_Error/&lt;ExecuteAsync&gt;d__0" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Shared\Error.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="3" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__CookieConsentPartial/&lt;ExecuteAsync&gt;d__10" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Shared\_CookieConsentPartial.cshtml" line-rate="0" branch-rate="0" complexity="14">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="4" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="17" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="5" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="105" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="6" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="132" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="9" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="204" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="10" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="557" type="jump" coverage="0%" />
+                    <condition number="662" type="jump" coverage="0%" />
+                    <condition number="695" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="17" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="5" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="105" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="6" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="132" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="9" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="204" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="10" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="557" type="jump" coverage="0%" />
+                <condition number="662" type="jump" coverage="0%" />
+                <condition number="695" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="28" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__45_3&gt;d" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="21">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="16" hits="0" branch="True" condition-coverage="0% (0/21)">
+                  <conditions>
+                    <condition number="8" type="switch" coverage="0%" />
+                    <condition number="138" type="jump" coverage="0%" />
+                    <condition number="555" type="jump" coverage="0%" />
+                    <condition number="658" type="jump" coverage="0%" />
+                    <condition number="691" type="jump" coverage="0%" />
+                    <condition number="941" type="jump" coverage="0%" />
+                    <condition number="1260" type="jump" coverage="0%" />
+                    <condition number="1367" type="jump" coverage="0%" />
+                    <condition number="1400" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="True" condition-coverage="0% (0/21)">
+              <conditions>
+                <condition number="8" type="switch" coverage="0%" />
+                <condition number="138" type="jump" coverage="0%" />
+                <condition number="555" type="jump" coverage="0%" />
+                <condition number="658" type="jump" coverage="0%" />
+                <condition number="691" type="jump" coverage="0%" />
+                <condition number="941" type="jump" coverage="0%" />
+                <condition number="1260" type="jump" coverage="0%" />
+                <condition number="1367" type="jump" coverage="0%" />
+                <condition number="1400" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__45_0&gt;d" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="17">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="6" hits="0" branch="True" condition-coverage="0% (0/17)">
+                  <conditions>
+                    <condition number="8" type="switch" coverage="0%" />
+                    <condition number="414" type="jump" coverage="0%" />
+                    <condition number="517" type="jump" coverage="0%" />
+                    <condition number="550" type="jump" coverage="0%" />
+                    <condition number="968" type="jump" coverage="0%" />
+                    <condition number="1075" type="jump" coverage="0%" />
+                    <condition number="1108" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="0" branch="True" condition-coverage="0% (0/17)">
+              <conditions>
+                <condition number="8" type="switch" coverage="0%" />
+                <condition number="414" type="jump" coverage="0%" />
+                <condition number="517" type="jump" coverage="0%" />
+                <condition number="550" type="jump" coverage="0%" />
+                <condition number="968" type="jump" coverage="0%" />
+                <condition number="1075" type="jump" coverage="0%" />
+                <condition number="1108" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__45_13&gt;d" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="31">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="54" hits="0" branch="True" condition-coverage="0% (0/31)">
+                  <conditions>
+                    <condition number="8" type="switch" coverage="0%" />
+                    <condition number="143" type="jump" coverage="0%" />
+                    <condition number="290" type="jump" coverage="0%" />
+                    <condition number="393" type="jump" coverage="0%" />
+                    <condition number="426" type="jump" coverage="0%" />
+                    <condition number="676" type="jump" coverage="0%" />
+                    <condition number="824" type="jump" coverage="0%" />
+                    <condition number="931" type="jump" coverage="0%" />
+                    <condition number="964" type="jump" coverage="0%" />
+                    <condition number="1214" type="jump" coverage="0%" />
+                    <condition number="1511" type="jump" coverage="0%" />
+                    <condition number="1618" type="jump" coverage="0%" />
+                    <condition number="1651" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="54" hits="0" branch="True" condition-coverage="0% (0/31)">
+              <conditions>
+                <condition number="8" type="switch" coverage="0%" />
+                <condition number="143" type="jump" coverage="0%" />
+                <condition number="290" type="jump" coverage="0%" />
+                <condition number="393" type="jump" coverage="0%" />
+                <condition number="426" type="jump" coverage="0%" />
+                <condition number="676" type="jump" coverage="0%" />
+                <condition number="824" type="jump" coverage="0%" />
+                <condition number="931" type="jump" coverage="0%" />
+                <condition number="964" type="jump" coverage="0%" />
+                <condition number="1214" type="jump" coverage="0%" />
+                <condition number="1511" type="jump" coverage="0%" />
+                <condition number="1618" type="jump" coverage="0%" />
+                <condition number="1651" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__45_14&gt;d" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="27">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="69" hits="0" branch="True" condition-coverage="0% (0/27)">
+                  <conditions>
+                    <condition number="8" type="switch" coverage="0%" />
+                    <condition number="463" type="jump" coverage="0%" />
+                    <condition number="566" type="jump" coverage="0%" />
+                    <condition number="599" type="jump" coverage="0%" />
+                    <condition number="1170" type="jump" coverage="0%" />
+                    <condition number="1277" type="jump" coverage="0%" />
+                    <condition number="1310" type="jump" coverage="0%" />
+                    <condition number="1560" type="jump" coverage="0%" />
+                    <condition number="1857" type="jump" coverage="0%" />
+                    <condition number="1964" type="jump" coverage="0%" />
+                    <condition number="1997" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="69" hits="0" branch="True" condition-coverage="0% (0/27)">
+              <conditions>
+                <condition number="8" type="switch" coverage="0%" />
+                <condition number="463" type="jump" coverage="0%" />
+                <condition number="566" type="jump" coverage="0%" />
+                <condition number="599" type="jump" coverage="0%" />
+                <condition number="1170" type="jump" coverage="0%" />
+                <condition number="1277" type="jump" coverage="0%" />
+                <condition number="1310" type="jump" coverage="0%" />
+                <condition number="1560" type="jump" coverage="0%" />
+                <condition number="1857" type="jump" coverage="0%" />
+                <condition number="1964" type="jump" coverage="0%" />
+                <condition number="1997" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__45_1&gt;d" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="59">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="44" hits="0" branch="True" condition-coverage="0% (0/59)">
+                  <conditions>
+                    <condition number="8" type="switch" coverage="0%" />
+                    <condition number="473" type="jump" coverage="0%" />
+                    <condition number="576" type="jump" coverage="0%" />
+                    <condition number="609" type="jump" coverage="0%" />
+                    <condition number="1136" type="jump" coverage="0%" />
+                    <condition number="1243" type="jump" coverage="0%" />
+                    <condition number="1276" type="jump" coverage="0%" />
+                    <condition number="1800" type="jump" coverage="0%" />
+                    <condition number="1907" type="jump" coverage="0%" />
+                    <condition number="1940" type="jump" coverage="0%" />
+                    <condition number="2464" type="jump" coverage="0%" />
+                    <condition number="2571" type="jump" coverage="0%" />
+                    <condition number="2604" type="jump" coverage="0%" />
+                    <condition number="2854" type="jump" coverage="0%" />
+                    <condition number="3034" type="jump" coverage="0%" />
+                    <condition number="3141" type="jump" coverage="0%" />
+                    <condition number="3174" type="jump" coverage="0%" />
+                    <condition number="3698" type="jump" coverage="0%" />
+                    <condition number="3806" type="jump" coverage="0%" />
+                    <condition number="3839" type="jump" coverage="0%" />
+                    <condition number="4258" type="jump" coverage="0%" />
+                    <condition number="4366" type="jump" coverage="0%" />
+                    <condition number="4399" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="72" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="44" hits="0" branch="True" condition-coverage="0% (0/59)">
+              <conditions>
+                <condition number="8" type="switch" coverage="0%" />
+                <condition number="473" type="jump" coverage="0%" />
+                <condition number="576" type="jump" coverage="0%" />
+                <condition number="609" type="jump" coverage="0%" />
+                <condition number="1136" type="jump" coverage="0%" />
+                <condition number="1243" type="jump" coverage="0%" />
+                <condition number="1276" type="jump" coverage="0%" />
+                <condition number="1800" type="jump" coverage="0%" />
+                <condition number="1907" type="jump" coverage="0%" />
+                <condition number="1940" type="jump" coverage="0%" />
+                <condition number="2464" type="jump" coverage="0%" />
+                <condition number="2571" type="jump" coverage="0%" />
+                <condition number="2604" type="jump" coverage="0%" />
+                <condition number="2854" type="jump" coverage="0%" />
+                <condition number="3034" type="jump" coverage="0%" />
+                <condition number="3141" type="jump" coverage="0%" />
+                <condition number="3174" type="jump" coverage="0%" />
+                <condition number="3698" type="jump" coverage="0%" />
+                <condition number="3806" type="jump" coverage="0%" />
+                <condition number="3839" type="jump" coverage="0%" />
+                <condition number="4258" type="jump" coverage="0%" />
+                <condition number="4366" type="jump" coverage="0%" />
+                <condition number="4399" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="72" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views__ViewStart/&lt;ExecuteAsync&gt;d__0" filename="C:\hol\ModernUIAppSolution\ModernUIApp\Views\_ViewStart.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="2" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+  modernuiapp:
+    image: modernuiapp
+    build:
+      context: .
+      dockerfile: ui.Dockerfile
+    ports:
+    - 80:80
+    
